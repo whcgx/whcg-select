@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/whcgx/whcg-select/issues"
   },
-  "homepage": "https://github.com/whcgx/whcg-select#readme"
+  "homepage": "https://github.com/whcgx/whcg-select#readme",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.5",
+    "@vaadin/vaadin-dropdown-menu": "^1.2.0-alpha2",
+    "@vaadin/vaadin-item": "^2.1.0",
+    "@vaadin/vaadin-list-box": "^1.1.0",
+    "@vaadin/vaadin-lumo-styles": "^1.2.0",
+    "@whcg/whcg-general-styles": "^1.2.2"
+  }
 }
