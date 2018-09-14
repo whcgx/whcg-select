@@ -2,12 +2,6 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-require('@vaadin/vaadin-lumo-styles/font-icons.js');
-require('@vaadin/vaadin-lumo-styles/sizing.js');
-require('@vaadin/vaadin-lumo-styles/spacing.js');
-require('@vaadin/vaadin-lumo-styles/style.js');
-require('@vaadin/vaadin-lumo-styles/typography.js');
-require('@vaadin/vaadin-lumo-styles/color.js');
 require('@whcg/whcg-general-styles/font-icons.js');
 var polymerElement_js = require('@polymer/polymer/polymer-element.js');
 require('@vaadin/vaadin-list-box/src/vaadin-list-box.js');
