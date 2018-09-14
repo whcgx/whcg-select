@@ -1,6 +1,6 @@
 {
   "name": "@whcg/whcg-select",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "```html <whcg-select></whcg-select> ```",
   "main": "dist/index.js",
   "module": "dist/index.es6.js",
