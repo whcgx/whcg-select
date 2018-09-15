@@ -181,7 +181,7 @@ export class WhcgSelect extends PolymerElement {
 	
 	_appSelect() {
 		
-		console.log('CHANGED!!');
+		// console.log('CHANGED!!');
 		// console.log(this.$.vdm.__data.value);
 		this.valueoutput = this.$.vdm.__data.value;
 	}
@@ -195,8 +195,8 @@ export class WhcgSelect extends PolymerElement {
 	
 	_jsoninputChanged() {
 		this.objinput = JSON.parse(this.jsoninput);
-		console.log('objInput');
-		console.log(this.objinput);
+		// console.log('objInput');
+		// console.log(this.objinput);
 	}
 
     connectedCallback() {
@@ -205,7 +205,7 @@ export class WhcgSelect extends PolymerElement {
 		this.valueoutput = this.value;
 
         let event = new CustomEvent('childrenattached', {bubbles: true, composed: true});
-        console.log('dispatchingEvent!!');
+        // console.log('dispatchingEvent!!');
 		this.dispatchEvent(event);
 		// console.log('this.$.vaadinlistbox');
 		// console.log(this.$.vaadinlistbox.shadowRoot);
